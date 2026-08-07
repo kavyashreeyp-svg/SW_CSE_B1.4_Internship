@@ -10,6 +10,7 @@ import SignupForm from "./components/FormTwo";
 import ValidatedForm from "./components/FormThree";
 import GitHubUsersList from "./components/FetchingData";
 import GitHubProfile from "./components/FetchingDataTwo";
+import GitHubRepoCount from "./components/FetchingDataThree";
 function App() {
   
   return (
@@ -25,7 +26,9 @@ function App() {
       <ValidatedForm />
       {/* <ValidatedForm/> */}
       {/* <GitHubUsersList/> */}
-      <GitHubProfile/>
+     
+     {/* <GitHubProfile/> */}
+      <GitHubRepoCount username="rakeshdotkr" />
     </>
   )
 }
